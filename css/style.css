@@ -73,6 +73,57 @@
 }
 .hero .c-2 a{
     color: aliceblue;
-    font-size: 25px;
-    
+    font-size: 25px; 
+}
+.main{
+    width: 100%;
+    height: 400px;
+    background-color: rgba(183, 194, 31, 0.897);
+    display: flex;
+    flex-direction: column;
+}
+.main .main-1{
+    width: 100%;
+    height: 65%;
+    background-color: rgb(235, 231, 232);
+    display: flex;
+    flex-direction: row;
+    position: relative;
+}
+.main .main-1 .main-right{
+    width: 40%;
+    height: inherit;
+    position: absolute;
+    left: 1100px;
+}
+.main .main-1 .main-left{
+    width: 60%;
+    height: inherit;
+    position: absolute;
+    left: 300px;
+    top: 50px;
+    line-height: 25px;
+}
+.main .main-1 .main-left h1{
+    color: crimson;
+}
+.main .main-1 .main-left h3{
+    color: rgb(71, 71, 71);
+}
+.main .main-1 .main-left p{
+    color: rgb(80, 80, 80);
+}
+.main .main-2{
+    width: 100%;
+    height: 35%;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.main .main-2 .loc-1 , .loc-2 , .loc-3 , .loc-4{
+    color: white;
+    font-size: 12px;
+    font-weight: lighter;
+    padding-top: 30px;
 }
